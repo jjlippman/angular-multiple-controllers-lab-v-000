@@ -1,9 +1,9 @@
 function ContactController($scope) {
   var vm = this;
   
-  this.name = 'Bill Gates';
-  this.title = 'Founder';
-  this.email = 'bill@microsoft.com';
+  vm.name = 'Steve Jobs';
+  vm.email = 'steve@apple.com';
+  vm.phone = '0987654321';
  
   this.changeName = function () {
     vm.name = 'Something else!';

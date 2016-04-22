@@ -1,9 +1,16 @@
-function StaffController($scope) {
-  this.name = 'JIm';
-  this.phone = 'boss';
-  this.email = 'Jim@microsoft.com';
+
+
+
+
+
+function StaffController() {
+  var vm = this;
+
+  vm.name = 'Bill Gates';
+  vm.email = 'bill@microsoft.com';
+  vm.phone = '0123456789';
 }
 
 angular
   .module('app')
-  .controller('ContactController', ContactController);
+  .controller('StaffController', StaffController);
